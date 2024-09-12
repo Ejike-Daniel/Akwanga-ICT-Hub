@@ -21,7 +21,7 @@ const NavLinks = ({ activeHash }) => {
         smooth
         to="#about"
         className={`${
-          activeHash === "#about" ? "text-activeBlue font-semibold" : ""
+          activeHash === "#about" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
       >
         About
