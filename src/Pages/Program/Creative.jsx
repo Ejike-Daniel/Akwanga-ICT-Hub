@@ -17,7 +17,7 @@ export default function CreativeCourses() {
               <img
                 src={vector}
                 alt="vector"
-                className="w-[15%] absolute -bottom-4 z-30 left-[0.6rem]"
+                className="w-[15%] absolute -bottom-4 z-10 left-[0.6rem]"
               />
             </div>
             <div className="bg-white shadow-lg rounded-lg py-3 px-4 mt-4 h-52 ">

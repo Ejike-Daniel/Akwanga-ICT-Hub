@@ -1,4 +1,4 @@
-import ReviewSwiper from "./ReviewSwiper";
+// import ReviewSwiper from "./ReviewSwiper";
 // import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 export default function Reviews() {
@@ -17,7 +17,7 @@ export default function Reviews() {
       </div>
       <div className="f">
         {/* <FaArrowLeft className="text-black text-2xl cursor-pointer" /> */}
-        <ReviewSwiper />
+        {/* <ReviewSwiper /> */}
         {/* <FaArrowRight className="text-black text-2xl cursor-pointer" /> */}
       </div>
     </section>
