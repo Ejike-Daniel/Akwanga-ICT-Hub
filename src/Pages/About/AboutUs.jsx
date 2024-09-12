@@ -1,4 +1,4 @@
-import image1 from "../../../public/assets/Image1.png";
+import image1 from "../../../public/assets/image1.png";
 import image2 from "../../../public/assets/laptop-guy.png";
 
 // eslint-disable-next-line react/prop-types
