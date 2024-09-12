@@ -6,12 +6,12 @@ import { RiMenu4Fill, RiCloseLine } from "react-icons/ri";
 // eslint-disable-next-line react/prop-types
 const NavLinks = ({ activeHash }) => {
   return (
-    <div className="flex flex-col items-center justify-center lg:flex-row gap-8  lg:gap-16 text-lightBlue">
+    <div className="flex flex-col items-center justify-center lg:flex-row gap-8  lg:gap-16 text-lightBlue font-inter">
       <NavLink
         to="/"
         className={({ isActive }) =>
           isActive
-            ? "text-activeBlue font-semibold"
+            ? "text-activeBlue font-bold"
             : "hover:text-activeBlue transition-all duration-300"
         }
       >
@@ -30,7 +30,7 @@ const NavLinks = ({ activeHash }) => {
         smooth
         to="#services"
         className={`${
-          activeHash === "#services" ? "text-activeBlue font-semibold" : ""
+          activeHash === "#services" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
       >
         Services
@@ -39,7 +39,7 @@ const NavLinks = ({ activeHash }) => {
         smooth
         to="#testimonials"
         className={`${
-          activeHash === "#testimonials" ? "text-activeBlue font-semibold" : ""
+          activeHash === "#testimonials" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
       >
         Testimonials
@@ -48,7 +48,7 @@ const NavLinks = ({ activeHash }) => {
         to="/programs"
         className={({ isActive }) =>
           isActive
-            ? "text-activeBlue font-semibold"
+            ? "text-activeBlue font-bold"
             : "hover:text-activeBlue transition-all duration-300"
         }
       >
