@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { entreprenuerData } from "../../Components/program";
-import arrow2 from "../../../public/assets/arrow2.png";
-import Frame from "../../../public/assets/Frame.png";
+import arrow2 from "../../assets/arrow2.png";
+import Frame from "../../assets/Frame.png";
 
 export default function EntreprenuerCourses() {
   return (

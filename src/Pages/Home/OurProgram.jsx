@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import frontend from "../../../public/assets/frontend.png";
-import html from "../../../public/assets/html-vec.png";
-import entrepreneurVector from "../../../public/assets/enterprenuer-vec.png";
-import dataScienceVector from "../../../public/assets/science-vec.png";
-import arrow2 from "../../../public/assets/arrow2.png";
-import arrow3 from "../../../public/assets/arrow3.png";
-import entreprenuer from "../../../public/assets/entreprenuer.png";
-import dataScience from "../../../public/assets/data-sci.png";
+import frontend from "../../assets/frontend.png";
+import html from "../../assets/html-vec.png";
+import entrepreneurVector from "../../assets/enterprenuer-vec.png";
+import dataScienceVector from "../../assets/science-vec.png";
+import arrow2 from "../../assets/arrow2.png";
+import arrow3 from "../../assets/arrow3.png";
+import entreprenuer from "../../assets/entreprenuer.png";
+import dataScience from "../../assets/data-sci.png";
 
 const data = [
   {

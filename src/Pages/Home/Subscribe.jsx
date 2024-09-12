@@ -1,4 +1,4 @@
-import image from "../../../public/assets/Image2.png";
+import image from "../../assets/Image2.png";
 import { MdEmail } from "react-icons/md";
 
 export default function Subscribe() {

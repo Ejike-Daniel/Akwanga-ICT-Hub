@@ -1,11 +1,11 @@
-// import ReviewSwiper from "./ReviewSwiper";
+import ReviewSwiper from "./ReviewSwiper";
 // import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 export default function Reviews() {
   return (
     <section
       id="testimonials"
-      className="py-12 px-4 flex flex-col items-center lg:px-20"
+      className="py-12 px-4 flex flex-col items-center lg:px-20 overflow-hidden"
     >
       <div className=" text-center">
         <h3 className=" text-4xl font-bold capitalize">
@@ -17,7 +17,7 @@ export default function Reviews() {
       </div>
       <div className="f">
         {/* <FaArrowLeft className="text-black text-2xl cursor-pointer" /> */}
-        {/* <ReviewSwiper /> */}
+        <ReviewSwiper />
         {/* <FaArrowRight className="text-black text-2xl cursor-pointer" /> */}
       </div>
     </section>

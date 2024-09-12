@@ -2,8 +2,8 @@ import CreativeCourses from "./Creative";
 import EconomyCourses from "./Economy";
 import EntreprenuerCourses from "./Entreprenuer";
 import InnovativeCourses from "./Innovative";
-import Img from "../../../public/assets/Image3.png";
-import Arow from "../../../public/assets/white-arrow.png";
+import Img from "../../assets/Image3.png";
+import Arow from "../../assets/white-arrow.png";
 import { Link } from "react-router-dom";
 import Subscribe from "../Home/Subscribe";
 

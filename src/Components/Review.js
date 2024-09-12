@@ -1,11 +1,11 @@
-import avatar1 from "../../public/assets/Avatar.png";
-import avatar2 from "../../public/assets/Avatar1.png";
-import avatar3 from "../../public/assets/3.jpg";
-import avatar4 from "../../public/assets/4.jpg";
-import avatar5 from "../../public/assets/5.jpg";
-import avatar6 from "../../public/assets/7.jpg";
-import avatar7 from "../../public/assets/10.jpg";
-import avatar8 from "../../public/assets/6.jpg";
+import avatar1 from "../assets/Avatar.png";
+import avatar2 from "../assets/Avatar1.png";
+import avatar3 from "../assets/3.jpg";
+import avatar4 from "../assets/4.jpg";
+import avatar5 from "../assets/5.jpg";
+import avatar6 from "../assets/7.jpg";
+import avatar7 from "../assets/10.jpg";
+import avatar8 from "../assets/6.jpg";
 
 const data = [
   {

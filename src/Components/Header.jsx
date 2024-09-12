@@ -1,4 +1,4 @@
-import logo1 from "../../public/assets/logo1.png";
+import logo1 from "../assets/logo1.png";
 import { RiMenu4Fill, RiCloseLine } from "react-icons/ri";
 import Nav from "./Nav";
 import { Link } from "react-router-dom";

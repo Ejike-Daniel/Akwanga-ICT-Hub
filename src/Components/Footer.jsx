@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo2 from "../../public/assets/logo2.png";
+import logo2 from "../assets/logo2.png";
 import { FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
 import { LuGitBranch } from "react-icons/lu";
 export default function Footer() {

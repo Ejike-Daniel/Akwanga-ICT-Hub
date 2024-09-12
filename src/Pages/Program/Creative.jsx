@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { creativeData } from "../../Components/program";
-import arrow2 from "../../../public/assets/arrow2.png";
+import arrow2 from "../../assets/arrow2.png";
 
 export default function CreativeCourses() {
   return (

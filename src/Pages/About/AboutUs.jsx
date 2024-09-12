@@ -1,5 +1,5 @@
-import image1 from "../../../public/assets/image1.png";
-import image2 from "../../../public/assets/laptop-guy.png";
+import image1 from "../../assets/image1.png";
+import image2 from "../../assets/laptop-guy.png";
 
 // eslint-disable-next-line react/prop-types
 export default function AboutUS({ id }) {

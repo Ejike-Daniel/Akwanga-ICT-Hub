@@ -1,6 +1,6 @@
-import training from "../../../public/assets/healthicons_i-training-class.png";
-import techSupport from "../../../public/assets/tech-support.png";
-import software from "../../../public/assets/hugeicons_software-license.png";
+import training from "../../assets/healthicons_i-training-class.png";
+import techSupport from "../../assets/tech-support.png";
+import software from "../../assets/hugeicons_software-license.png";
 
 export default function OurServices() {
   const data = [
