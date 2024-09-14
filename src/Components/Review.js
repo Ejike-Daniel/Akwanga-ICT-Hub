@@ -38,7 +38,7 @@ const data = [
     comment:
       "Great experience overall. The platform is user-friendly and effective.",
     profileImg: avatar3,
-    name: "Chinwe Obi",
+    name: " Kola Adeyemi",
   },
   {
     id: "5",
@@ -46,7 +46,7 @@ const data = [
     comment:
       "I highly recommend their services. I've seen a huge improvement in my work.",
     profileImg: avatar4,
-    name: "Kola Adeyemi",
+    name: "Chinwe Obi",
   },
   {
     id: "6",

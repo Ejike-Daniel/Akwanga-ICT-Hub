@@ -8,7 +8,7 @@ export default function EntreprenuerCourses() {
     <section className=" px-4 lg:px-20 py-12 flex-col items-center justify-center">
       <div className=" py-6 md:py-12 text-center">
         <p>Course we offer</p>
-        <p className=" font-bold text-3xl ">School of entrepreneurship</p>
+        <p className=" font-bold text-3xl ">School Of Entrepreneurship</p>
       </div>
 
       <section className="flex justify-evenly items-center gap-3">
