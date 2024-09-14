@@ -9,7 +9,7 @@ import { useState } from "react";
 const CustomPrevArrow = ({ onClick }) => {
   return (
     <div
-      className="hidden md:flex absolute left-[-25px] top-[50%] transform -translate-y-1/2 bg-lightBlue p-2 rounded-full cursor-pointer"
+      className="hidden lg:flex absolute left-[-25px] top-[50%] transform -translate-y-1/2 bg-lightBlue p-2 rounded-full cursor-pointer"
       onClick={onClick}
     >
       <FaChevronLeft className="text-white" />
@@ -21,7 +21,7 @@ const CustomPrevArrow = ({ onClick }) => {
 const CustomNextArrow = ({ onClick }) => {
   return (
     <div
-      className=" hidden md:flex absolute right-[-25px] top-[50%] transform -translate-y-1/2 bg-lightBlue p-2 rounded-full cursor-pointer"
+      className=" hidden lg:flex absolute right-[-25px] top-[50%] transform -translate-y-1/2 bg-lightBlue p-2 rounded-full cursor-pointer"
       onClick={onClick}
     >
       <FaChevronRight className="text-white" />

@@ -22,7 +22,7 @@ export default function EntreprenuerCourses() {
                 className="w-[15%] absolute -bottom-4 z-10 left-[0.6rem]"
               />
             </div>
-            <div className="bg-white shadow-lg rounded-lg py-3 px-4 mt-4 h-60">
+            <div className="bg-white shadow-lg rounded-lg py-3 px-4 mt-4 h-64">
               <h5 className="font-semibold text-xl  text-nowrap">{stack}</h5>
               <p className="text-gray">Modules</p>
               <ul className="list-disc text-gray md:text-lg text-[16px] px-6 text-wrap">
