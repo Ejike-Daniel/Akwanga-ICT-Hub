@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { RiMenu4Fill, RiCloseLine } from "react-icons/ri";
 
 // eslint-disable-next-line react/prop-types
-const NavLinks = ({ activeHash }) => {
+const NavLinks = ({ activeHash, closeMenu }) => {
   return (
     <div className="flex flex-col items-center justify-center lg:flex-row gap-8  lg:gap-16 text-lightBlue font-inter">
       <NavLink
@@ -14,6 +14,7 @@ const NavLinks = ({ activeHash }) => {
             ? "text-activeBlue font-bold"
             : "hover:text-activeBlue transition-all duration-300"
         }
+        onClick={closeMenu}
       >
         Home
       </NavLink>
@@ -23,6 +24,7 @@ const NavLinks = ({ activeHash }) => {
         className={`${
           activeHash === "#about" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
+        onClick={closeMenu}
       >
         About
       </HashLink>
@@ -32,6 +34,7 @@ const NavLinks = ({ activeHash }) => {
         className={`${
           activeHash === "#services" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
+        onClick={closeMenu}
       >
         Services
       </HashLink>
@@ -41,6 +44,7 @@ const NavLinks = ({ activeHash }) => {
         className={`${
           activeHash === "#testimonials" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
+        onClick={closeMenu}
       >
         Testimonials
       </HashLink>
@@ -51,6 +55,7 @@ const NavLinks = ({ activeHash }) => {
             ? "text-activeBlue font-bold"
             : "hover:text-activeBlue transition-all duration-300"
         }
+        onClick={closeMenu}
       >
         Programs
       </NavLink>
@@ -67,6 +72,10 @@ export default function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   useEffect(() => {
     setActiveHash(location.hash);
   }, [location]);
@@ -75,7 +84,7 @@ export default function Nav() {
     <>
       <nav className=" flex justify-center items-center">
         <div className="hidden lg:flex justify-center w-full gap-32 items-center">
-          <NavLinks activeHash={activeHash} />
+          <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
           <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
             Join Now
           </button>
@@ -88,7 +97,7 @@ export default function Nav() {
       </nav>
       {isMenuOpen && (
         <div className="flex flex-col items-center justify-center gap-8 basis-full lg:hidden transition-all duration-500 ease-in-out">
-          <NavLinks activeHash={activeHash} />
+          <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
           <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
             Join Now
           </button>

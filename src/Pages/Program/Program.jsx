@@ -8,6 +8,12 @@ import { Link } from "react-router-dom";
 import Subscribe from "../Home/Subscribe";
 
 export default function Program() {
+  const scrollToPrograms = () => {
+    window.scrollTo({
+      top: 550,
+      behavior: "smooth",
+    });
+  };
   return (
     <section>
       <section
@@ -22,9 +28,12 @@ export default function Program() {
             Innovative Solutions for a Digital Future Explore our exclusive
             programs.
           </p>
-          <Link className="  flex py-2 items-center justify-center gap-2 ">
+          <Link
+            className="  flex py-2 items-center justify-center gap-2 hover:animate-none transition duration-300 animate-bounce "
+            onClick={scrollToPrograms}
+          >
             Our Programs
-            <img className=" h-4 w-4" src={Arow} />
+            <img className=" h-4 w-4 " src={Arow} />
           </Link>
         </div>
         <div>

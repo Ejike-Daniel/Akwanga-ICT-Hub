@@ -7,7 +7,7 @@ export default function InnovativeCourses() {
     <section className="px-4 lg:px-20 py-12 flex flex-col items-center justify-center">
       <div className=" py-6 md:py-12 text-center">
         <p>Course we offer</p>
-        <p className=" font-bold text-3xl ">School of Entrepreneurship</p>
+        <p className=" font-bold text-3xl ">School Of Innovation</p>
       </div>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-start  ">
         {InnovationData.map(({ img, vector, stack, modules }, i) => (

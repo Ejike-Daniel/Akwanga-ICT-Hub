@@ -24,3 +24,16 @@ html {
 .slick-slide>div {
   margin: 0 10px;
 }
+
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
