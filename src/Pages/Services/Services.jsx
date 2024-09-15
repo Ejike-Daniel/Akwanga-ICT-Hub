@@ -32,7 +32,7 @@ export default function OurServices() {
           adipisci in enim?
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-24 animate-bounce ">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-24 ">
         {data.map(({ img, name, description }, i) => (
           <div
             key={i}
