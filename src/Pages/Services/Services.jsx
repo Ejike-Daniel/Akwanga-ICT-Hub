@@ -26,13 +26,13 @@ export default function OurServices() {
       className="px-4 lg:px-20 flex flex-col items-center gap-20 py-12"
     >
       <div className="text-center">
-        <h2 className=" font-extrabold text-4xl">Our Services</h2>
+        <h2 className=" font-extrabold text-4xl animate-pulse">Our Services</h2>
         <p className="text-gray">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
           adipisci in enim?
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-24 ">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-24 animate-bounce ">
         {data.map(({ img, name, description }, i) => (
           <div
             key={i}

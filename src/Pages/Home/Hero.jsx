@@ -17,6 +17,10 @@ export default function Hero() {
           Join Now
         </button>
       </div>
+
+
+
+      
       <div>
         <img src={heroImg} alt={heroImg} className="w-full" />
       </div>
