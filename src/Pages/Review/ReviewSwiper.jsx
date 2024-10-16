@@ -14,7 +14,7 @@ const CustomPrevArrow = ({ onClick }) => {
     >
       <FaChevronLeft className="text-white" />
     </div>
-  );    
+  );
 };
 
 // eslint-disable-next-line react/prop-types
@@ -88,8 +88,9 @@ export default function ReviewSwiper() {
                   <img
                     src={item.profileImg}
                     alt={`Profile of ${item.name}`}
-                    className="rounded-full w-12 h-12 mb-2"
+                    className="rounded-full w-[50px] h-[50px] object-cover mb-2"
                   />
+
                   <p className="text-base font-semibold text-gray-900">
                     {item.name}
                   </p>

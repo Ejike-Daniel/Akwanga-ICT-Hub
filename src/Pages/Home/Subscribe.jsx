@@ -5,7 +5,7 @@ export default function Subscribe() {
   return (
     <section
       className="my-12 px-4 bg-blue mx-2 lg:mx-20 md:px-6 rounded-[16px]
-    py-14 lg:px-16 text-white flex flex-col-reverse md:flex-row gap-14 lg:gap-20 justify-between items-center"
+    py-8 lg:px-16 text-white flex flex-col-reverse md:flex-row gap-14 lg:gap-20 justify-between items-center"
     >
       <div className="flex flex-col justify-center items-center md:items-start md:justify-start gap-3">
         <div className="text-center md:text-start">
@@ -14,9 +14,6 @@ export default function Subscribe() {
             <br />
             <span>Join Us For Free</span>
           </h2>
-          <p className="font-light py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing .
-          </p>
         </div>
         <form className="flex flex-col md:flex-row justify-center items-center gap-6 relative py-6">
           <MdEmail className="absolute left-2 top-[2.1rem]  text-2xl text-gray" />

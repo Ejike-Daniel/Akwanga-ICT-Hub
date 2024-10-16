@@ -1,11 +1,11 @@
 import avatar1 from "../assets/Avatar.png";
 import avatar2 from "../assets/Avatar1.png";
-import avatar3 from "../assets/man1.jpg";
-import avatar4 from "../assets/man2.jpg";
+import avatar3 from "../assets/man1.avif";
+import avatar4 from "../assets/man2.avif";
 import avatar5 from "../assets/man3.avif";
-import avatar6 from "../assets/woman1.webp";
+import avatar6 from "../assets/woman1.avif";
 import avatar7 from "../assets/woman2.avif";
-import avatar8 from "../assets/woman3.webp";
+import avatar8 from "../assets/woman3.avif";
 
 const data = [
   {

@@ -96,7 +96,7 @@ export default function Nav() {
         </div>
       </nav>
       {isMenuOpen && (
-        <div className="flex flex-col items-center absolute top-[9.5rem] justify-center gap-8 w-full lg:hidden bg-white py-4">
+        <div className="flex flex-col items-center absolute top-[10rem] right-0 justify-center gap-8 w-[75%] transition-all duration-300 lg:hidden bg-white py-4">
           <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
           <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
             Join Now
