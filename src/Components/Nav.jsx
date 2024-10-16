@@ -82,10 +82,10 @@ export default function Nav() {
 
   return (
     <>
-      <nav className=" flex justify-center items-center">
+      <nav className=" flex justify-center items-center relative">
         <div className="hidden lg:flex justify-center w-full gap-32 items-center">
           <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
-          <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
+          <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300 whitespace-nowrap">
             Join Now
           </button>
         </div>
@@ -96,7 +96,7 @@ export default function Nav() {
         </div>
       </nav>
       {isMenuOpen && (
-        <div className="flex flex-col items-center justify-center gap-8 basis-full lg:hidden transition-all duration-500 ease-in-out">
+        <div className="flex flex-col items-center absolute top-[9.5rem] justify-center gap-8 w-full lg:hidden bg-white py-4">
           <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
           <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
             Join Now

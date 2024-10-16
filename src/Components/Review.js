@@ -1,11 +1,11 @@
 import avatar1 from "../assets/Avatar.png";
 import avatar2 from "../assets/Avatar1.png";
-import avatar3 from "../assets/3.jpg";
-import avatar4 from "../assets/4.jpg";
-import avatar5 from "../assets/5.jpg";
-import avatar6 from "../assets/7.jpg";
-import avatar7 from "../assets/10.jpg";
-import avatar8 from "../assets/6.jpg";
+import avatar3 from "../assets/man1.jpg";
+import avatar4 from "../assets/man2.jpg";
+import avatar5 from "../assets/man3.avif";
+import avatar6 from "../assets/woman1.webp";
+import avatar7 from "../assets/woman2.avif";
+import avatar8 from "../assets/woman3.webp";
 
 const data = [
   {
@@ -45,7 +45,7 @@ const data = [
     rate: "5",
     comment:
       "I highly recommend their services. I've seen a huge improvement in my work.",
-    profileImg: avatar4,
+    profileImg: avatar6,
     name: "Chinwe Obi",
   },
   {
@@ -53,15 +53,15 @@ const data = [
     rate: "3",
     comment:
       "The tools provided are useful, but there's room for improvement in the interface.",
-    profileImg: avatar5,
-    name: "Fatima Hassan",
+    profileImg: avatar4,
+    name: "Abdul Hassan",
   },
   {
     id: "7",
     rate: "4",
     comment:
       "Very helpful. The resources available are extensive and well-organized.",
-    profileImg: avatar6,
+    profileImg: avatar5,
     name: "Ibrahim Sadiq",
   },
   {

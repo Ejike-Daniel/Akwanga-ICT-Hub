@@ -52,7 +52,6 @@ const OurProgram = () => {
     <section className="px-4 lg:px-20 md:py-12">
       <div className="text-center py-6 md:py-12">
         <h3 className="pb-6 text-4xl font-bold capitalize">Our Programs</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa?</p>
       </div>
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-start ">
         {data.map(({ id, img, vector, stack, modules }) => (
