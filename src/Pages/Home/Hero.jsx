@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroImg from "../../assets/Image.png";
 
 export default function Hero() {
@@ -13,14 +14,13 @@ export default function Hero() {
         <p className=" md:text-start text-center ">
           Innovative Solutions For a Digital Future.
         </p>
-        <button className="bg-blue py-2 px-6 rounded-[4px] text-center text-nowrap text-white font-medium my-2">
-          Join Now
-        </button>
+        <Link to={"signup"}>
+          <button className="bg-blue py-2 px-6 rounded-[4px] text-center text-nowrap text-white font-medium my-2">
+            Join Now
+          </button>
+        </Link>
       </div>
 
-
-
-      
       <div>
         <img src={heroImg} alt={heroImg} className="w-full" />
       </div>

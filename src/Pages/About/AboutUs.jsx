@@ -1,11 +1,10 @@
 import image1 from "../../assets/image1.png";
 import image2 from "../../assets/laptop-guy.png";
 
-// eslint-disable-next-line react/prop-types
-export default function AboutUS({ id }) {
+export default function AboutUS() {
   return (
     <section
-      id={id}
+      id="about"
       className="w-full lg:px-24 px-8 flex flex-col items-center gap-10 py-12"
     >
       <div className="text-center">

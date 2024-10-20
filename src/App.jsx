@@ -6,6 +6,7 @@ import AboutUS from "./Pages/About/AboutUs";
 import OurServices from "./Pages/Services/Services";
 import Reviews from "./Pages/Review/Reveiws";
 import Program from "./Pages/Program/Program";
+import JoinUs from "./Components/JoinUs";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
               },
               {
                 path: "about",
-                element: <AboutUS  />,
+                element: <AboutUS />,
               },
               {
                 path: "services",
@@ -39,8 +40,8 @@ function App() {
               },
 
               {
-                path: "signin",
-                element: <>join us</>,
+                path: "signup",
+                element: <JoinUs />,
               },
             ],
           },

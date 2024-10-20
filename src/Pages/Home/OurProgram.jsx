@@ -75,7 +75,7 @@ const OurProgram = () => {
                 ))}
               </ul>
               <Link
-                to={"#"}
+                to={"signup"}
                 className="flex items-center justify-start gap-2 text-blue font-semibold my-4"
               >
                 <span>Apply Here</span>

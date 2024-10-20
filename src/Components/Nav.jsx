@@ -2,6 +2,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
 import { RiMenu4Fill, RiCloseLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const NavLinks = ({ activeHash, closeMenu }) => {
@@ -19,8 +20,7 @@ const NavLinks = ({ activeHash, closeMenu }) => {
         Home
       </NavLink>
       <HashLink
-        smooth
-        to="#about"
+        to="/#about"
         className={`${
           activeHash === "#about" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
@@ -29,8 +29,7 @@ const NavLinks = ({ activeHash, closeMenu }) => {
         About
       </HashLink>
       <HashLink
-        smooth
-        to="#services"
+        to="/#services"
         className={`${
           activeHash === "#services" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
@@ -38,18 +37,17 @@ const NavLinks = ({ activeHash, closeMenu }) => {
       >
         Services
       </HashLink>
-      <HashLink
-        smooth
-        to="#testimonials"
+      <a
+        href="/#testimonials"
         className={`${
           activeHash === "#testimonials" ? "text-activeBlue font-bold" : ""
         } hover:text-activeBlue transition-all duration-300`}
         onClick={closeMenu}
       >
         Testimonials
-      </HashLink>
+      </a>
       <NavLink
-        to="/programs"
+        to="programs"
         className={({ isActive }) =>
           isActive
             ? "text-activeBlue font-bold"
@@ -85,9 +83,11 @@ export default function Nav() {
       <nav className=" flex justify-center items-center relative">
         <div className="hidden lg:flex justify-center w-full gap-32 items-center">
           <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
-          <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300 whitespace-nowrap">
-            Join Now
-          </button>
+          <Link to={"signup"}>
+            <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300 whitespace-nowrap">
+              Join Now
+            </button>
+          </Link>
         </div>
         <div className="text-3xl lg:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
@@ -98,9 +98,11 @@ export default function Nav() {
       {isMenuOpen && (
         <div className="flex flex-col items-center absolute top-[10rem] right-0 justify-center gap-8 w-[75%] transition-all duration-300 lg:hidden bg-white py-4">
           <NavLinks activeHash={activeHash} closeMenu={closeMenu} />
-          <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
-            Join Now
-          </button>
+          <Link to={"signup"}>
+            <button className="bg-blue hover:bg-activeBlue py-2 px-6 rounded-[4px] text-white font-medium transition-all duration-300">
+              Join Now
+            </button>
+          </Link>
         </div>
       )}
     </>

@@ -12,7 +12,7 @@ const data = [
     id: "1",
     rate: "5",
     comment:
-      "Thanks to the ICT hub, our business has transformed and reached new heights!",
+      "Thanks to the Engr. ABUDULAHI A.SULE Creative and Innovation Hub, our business has transformed and reached new heights!",
     profileImg: avatar2,
     name: "Jeremiah Sunday",
   },
